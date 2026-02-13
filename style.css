@@ -135,19 +135,18 @@ main {
     font-size: 16px;
 }
 
-details {
+.course-btn {
+    display: inline-block;
     margin-top: 15px;
-    text-align: left;
-}
-
-summary {
-    cursor: pointer;
+    padding: 12px 24px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
     font-weight: bold;
-    color: #2563eb;
-    margin-bottom: 10px;
 }
 
-details ul {
-    margin-top: 10px;
-    padding-left: 20px;
+.course-btn:hover {
+    background-color: #1d4ed8;
 }
