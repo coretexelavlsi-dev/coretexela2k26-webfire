@@ -150,3 +150,27 @@ main {
 .course-btn:hover {
     background-color: #1d4ed8;
 }
+
+.highlight-box {
+    background-color: #eef4ff;
+    padding: 20px;
+    border-left: 5px solid #2563eb;
+    margin: 20px 0;
+    border-radius: 6px;
+}
+
+.concept-box {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-left: 4px solid #333;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.example-box {
+    background-color: #e8f7e9;
+    padding: 15px;
+    border-left: 4px solid #28a745;
+    margin: 15px 0;
+    border-radius: 5px;
+}
