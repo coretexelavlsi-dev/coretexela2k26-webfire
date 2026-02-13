@@ -7,10 +7,9 @@
 </head>
 <body>
 
-    <!-- Header -->
-    <header class="header">
+<header class="header">
     <div class="logo">
-        <img src="logo.png" alt="Logo">
+        <img src="../logo.png" alt="Logo">
         CORETEXELA
     </div>
     <nav>
@@ -22,39 +21,90 @@
     </nav>
 </header>
 
-    <!-- Courses Section -->
-    <section class="section">
-        <h2>Our Courses</h2>
-        <p>Structured learning paths designed for ECE students.</p>
-    </section>
+<main>
 
-    <!-- Course Cards -->
-    <section class="section">
-        <div class="card">
-            <h3>Digital Electronics</h3>
-            <p>Logic gates, combinational circuits, sequential circuits.</p>
-        </div>
+<section class="section">
+    <h2>Our Courses</h2>
+    <p>Structured learning paths designed for ECE students.</p>
+</section>
 
-        <div class="card">
-            <h3>VLSI Basics</h3>
-            <p>CMOS fundamentals, RTL concepts, introduction to ASIC flow.</p>
-        </div>
+<section class="section">
 
-        <div class="card">
-            <h3>Embedded Systems</h3>
-            <p>Microcontrollers, basics of interfacing, real-world use cases.</p>
-        </div>
+    <!-- Digital Electronics -->
+    <div class="card">
+        <h3>Digital Electronics</h3>
+        <p>Logic gates, combinational circuits, sequential circuits.</p>
 
-        <div class="card">
-            <h3>Verilog HDL</h3>
-            <p>Beginner-friendly RTL coding with practical examples.</p>
-        </div>
-    </section>
+        <details>
+            <summary>View Course Content</summary>
+            <ul>
+                <li>Logic Gates and Truth Tables</li>
+                <li>Boolean Algebra & Simplification</li>
+                <li>Adders & Subtractors</li>
+                <li>Multiplexers & Decoders</li>
+                <li>Flip-Flops and Counters</li>
+            </ul>
+        </details>
+    </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2026 CORETEXELA. All rights reserved.</p>
-    </footer>
+    <!-- VLSI Basics -->
+    <div class="card">
+        <h3>VLSI Basics</h3>
+        <p>CMOS fundamentals, RTL concepts, ASIC flow.</p>
+
+        <details>
+            <summary>View Course Content</summary>
+            <ul>
+                <li>CMOS Technology</li>
+                <li>CMOS Inverter Analysis</li>
+                <li>RTL Design Flow</li>
+                <li>ASIC Design Flow</li>
+                <li>Introduction to Physical Design</li>
+            </ul>
+        </details>
+    </div>
+
+    <!-- Embedded Systems -->
+    <div class="card">
+        <h3>Embedded Systems</h3>
+        <p>Microcontrollers, interfacing, real-world applications.</p>
+
+        <details>
+            <summary>View Course Content</summary>
+            <ul>
+                <li>Microcontroller Architecture</li>
+                <li>GPIO & Timers</li>
+                <li>UART & SPI Communication</li>
+                <li>Sensor Interfacing</li>
+                <li>Mini Embedded Projects</li>
+            </ul>
+        </details>
+    </div>
+
+    <!-- Verilog HDL -->
+    <div class="card">
+        <h3>Verilog HDL</h3>
+        <p>RTL coding with practical examples.</p>
+
+        <details>
+            <summary>View Course Content</summary>
+            <ul>
+                <li>Verilog Basics</li>
+                <li>Dataflow & Behavioral Modeling</li>
+                <li>Testbench Writing</li>
+                <li>FSM Design</li>
+                <li>Mini RTL Projects</li>
+            </ul>
+        </details>
+    </div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 CORETEXELA. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
