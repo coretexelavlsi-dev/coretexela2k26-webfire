@@ -174,3 +174,85 @@ main {
     margin: 15px 0;
     border-radius: 5px;
 }
+
+/* ================= LOGIN PAGE ================= */
+
+.login-body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left Column */
+.login-left {
+    flex: 1;
+    background-color: #1f2933;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-left img {
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Right Column */
+.login-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    background-color: white;
+}
+
+.login-right h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.login-right p {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.login-right input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-right button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-right button:hover {
+    background-color: #1d4ed8;
+}
+
+.register-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-text a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
