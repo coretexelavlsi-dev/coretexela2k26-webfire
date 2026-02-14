@@ -7,29 +7,32 @@
 </head>
 <body class="login-body">
 
-<div class="login-container">
+<div class="login-wrapper">
 
-    <!-- Left Column -->
-    <div class="login-left">
-        <img src="logo.png" alt="Login Image">
-    </div>
+    <div class="login-card">
 
-    <!-- Right Column -->
-    <div class="login-right">
+        <!-- Left Image Section -->
+        <div class="login-image">
+            <img src="sample.jpeg" alt="Login Image">
+        </div>
 
-        <h2>Welcome Back</h2>
-        <p>Please sign in to continue</p>
+        <!-- Right Form Section -->
+        <div class="login-form">
 
-        <form onsubmit="return loginUser(event)">
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
+            <h2>CORETEXELA</h2>
+            <p class="subtitle">Sign in to continue your learning journey</p>
 
-            <button type="submit">Sign In</button>
-        </form>
+            <form onsubmit="return loginUser(event)">
+                <label>Email</label>
+                <input type="email" required>
 
-        <p class="register-text">
-            Don't have an account? <a href="#">Register</a>
-        </p>
+                <label>Password</label>
+                <input type="password" required>
+
+                <button type="submit">Sign In</button>
+            </form>
+
+        </div>
 
     </div>
 
