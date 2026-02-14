@@ -8,49 +8,42 @@
 <body class="login-body">
 
 <div class="login-wrapper">
-
     <div class="login-card">
 
-        <!-- Left Image Section -->
+        <!-- Left Image -->
         <div class="login-image">
             <img src="sample.jpeg" alt="Login Image">
         </div>
 
-        <!-- Right Form Section -->
+        <!-- Right Form -->
         <div class="login-form">
 
-    <!-- Logo at Top Center -->
-    <div class="login-logo">
-        <img src="logo.png" alt="Coretexela Logo">
-    </div>
+            <div class="login-logo">
+                <img src="logo.png" alt="Coretexela Logo">
+            </div>
 
-    <h2>CORETEXELA</h2>
-    <p class="subtitle">Please sign in to continue</p>
+            <h2>CORETEXELA</h2>
+            <p class="subtitle">Please sign in to continue</p>
 
-    <form onsubmit="return loginUser(event)">
-        <label>Email</label>
-        <input type="email" required>
+            <form onsubmit="return loginUser(event)">
+                <label>Email</label>
+                <input type="email" required>
 
-        <label>Password</label>
-        <input type="password" required>
+                <label>Password</label>
+                <input type="password" required>
 
-        <button type="submit">Sign In</button>
-    </form>
+                <button type="submit">Sign In</button>
+            </form>
 
-    <p class="register-text">
-        Don't have an account? <a href="#">Register</a>
-    </p>
-
-</div>
-
+        </div>
 
     </div>
-
 </div>
 
 <script>
 function loginUser(event) {
     event.preventDefault();
+    localStorage.setItem("loggedIn", "true");
     window.location.href = "home.html";
 }
 </script>
