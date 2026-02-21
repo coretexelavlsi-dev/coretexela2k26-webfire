@@ -19,17 +19,19 @@ main {
 
 /* Header */
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
     background-color: rgba(10, 20, 40, 0.95);
-    backdrop-filter: blur(6px);
-    padding: 15px 40px;
 }
 
-.header a {
+/*.header a {
     color: #ffffff;
     font-weight: 500;
 }
 
-/* Logo Container */
+Logo Container */
 .logo {
     display: flex;
     align-items: center;
@@ -61,8 +63,8 @@ main {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 140px 20px;
-    background: rgba(0, 0, 0, 0.4);
+    padding: 160px 20px;
+    background: transparent; /* remove white */
 }
 
 .hero h2 {
