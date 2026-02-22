@@ -67,7 +67,7 @@ Logo Container */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px 20px 30px 20px;
+    padding: 60px 20px ;
     background: transparent !important;
 }
 
@@ -295,7 +295,7 @@ Logo Container */
     text-decoration: none;
 }
 
-/* HERO 
+HERO 
 .hero {
     text-align: center;
     padding: 120px 20px;
