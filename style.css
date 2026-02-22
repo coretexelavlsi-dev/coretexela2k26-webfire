@@ -28,7 +28,7 @@ main {
     background-color: rgba(10, 20, 40, 0.95);
 }
 
-Logo Container */
+/*Logo Container */
 .logo {
     display: flex;
     align-items: center;
@@ -303,7 +303,7 @@ Logo Container */
     text-decoration: none;
     font-size: 16px;
     background: linear-gradient(135deg, #3b5bdb, #2563eb);
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .primary-btn:hover {
