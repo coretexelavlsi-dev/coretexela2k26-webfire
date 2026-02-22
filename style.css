@@ -114,10 +114,11 @@ Logo Container */
 /* Cards */
 .card {
     background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(8px);
     padding: 30px;
     margin: 25px auto;
     border-radius: 10px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);;
     max-width: 650px;
     transition: transform 0.2s ease;
 }
@@ -346,7 +347,7 @@ Logo Container */
     padding: 30px;
     border-radius: 12px;
     width: 300px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);   
     text-align: left;
 }
 
