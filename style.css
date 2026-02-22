@@ -6,6 +6,7 @@ html, body {
                 url("images/vlsi-bg.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
+    
 }
 
 body {
@@ -466,7 +467,7 @@ Logo Container */
     font-size: 18px;
 }
 
-.course-card a {
+.card a {
     margin-top: 15px;
     display: inline-block;
 }
