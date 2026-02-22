@@ -74,8 +74,9 @@ Logo Container */
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: 16px;
     margin: 20px 0;
+    opacity: 0.8;
 }
 
 .hero button {
@@ -114,15 +115,16 @@ Logo Container */
     background-color: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(8px);
     padding: 30px;
-    margin: 25px auto;
+    margin: 30px auto;
     border-radius: 10px;
    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);;
-    max-width: 650px;
-    transition: transform 0.2s ease;
+    max-width: 750px;
+    transition: 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-6px);
+    background: rgba(255,255,255,0.12);
 }
 
 .card h3 {
@@ -292,31 +294,16 @@ Logo Container */
     text-decoration: none;
 }
 
-/*HERO 
-.hero {
-    text-align: center;
-    padding: 120px 20px;
-    
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 20px;
-    margin-bottom: 30px;
-}*/
-
 .primary-btn {
     display: inline-block;
-    padding: 14px 30px;
+    padding: 10px 22px;
     background-color: #3b5bdb;
     color: white;
     border-radius: 8px;
     text-decoration: none;
     font-size: 16px;
+    background: linear-gradient(135deg, #3b5bdb, #2563eb);
+    font-weight: 500;
 }
 
 .primary-btn:hover {
