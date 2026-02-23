@@ -25,7 +25,7 @@ main {
 /* ================= HEADER ================= */
 
 .header {
-    position: fixed;        /* FIXED */
+    /*position: fixed;   */     /* FIXED */
     top: 0;
     left: 0;
     width: 100%;
