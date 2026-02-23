@@ -41,7 +41,7 @@ main {
 
 /* Bigger Logo */
 .logo img {
-    height: 150px;   /* Increased */
+    height: 100px;   /* Increased */
     width: auto;
 }
 
