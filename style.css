@@ -1,62 +1,75 @@
-/* Global Layout */
+/* GLOBAL RESET */
 html, body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(rgba(20, 30, 50, 0.85), rgba(20, 30, 50, 0.85)),
                 url("images/vlsi-bg.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
-    
 }
 
+/* BODY FLEX STRUCTURE */
 body {
     display: flex;
     flex-direction: column;
-    /*font-size: 16px;*/
+    min-height: 100vh;
 }
 
+/* MAIN CONTENT PUSH */
 main {
     flex: 1;
+    padding-top: 110px; /* space for fixed navbar */
 }
 
-/* Header */
+/* ================= HEADER ================= */
+
 .header {
-    positin:fixed;
+    position: fixed;        /* FIXED */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    background-color: rgba(10, 20, 40, 0.95);
+
+    padding: 18px 60px;
+    background: linear-gradient(90deg, #081c3a, #0b2347);
 }
 
-/*Logo Container */
+/* LOGO CONTAINER */
 .logo {
     display: flex;
     align-items: center;
     gap: 15px;
-    color: #ffffff;
-    font-size: 28px;
-    font-weight: bold;
+
+    font-size: 32px;     /* Bigger */
+    font-weight: 800;    /* Bold */
+    letter-spacing: 1px;
 }
 
-/* Bigger Logo */
+/* LOGO IMAGE */
 .logo img {
-    height: 75px;   /* Increased */
+    height: 75px;
     width: auto;
 }
 
-/* Navigation */
+/* NAVIGATION */
 .header nav a {
     color: #ffffff;
-    margin-left: 30px;
+    margin-left: 35px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
+    transition: 0.3s;
 }
 
 .header nav a:hover {
-    text-decoration: underline;
+    color: #3b82f6;
 }
+
 
 /* Hero Section */
 .hero {
