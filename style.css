@@ -12,8 +12,6 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
     /*font-size: 16px;*/
 }
 
@@ -23,7 +21,7 @@ main {
 
 /* Header */
 .header {
-    margin: 0;
+    positin:fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
