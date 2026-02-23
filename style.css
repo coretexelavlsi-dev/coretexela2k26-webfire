@@ -467,26 +467,3 @@ main {
     margin-top: 60px;
 }
 
-.project-card {
-    background: rgba(255,255,255,0.08);
-    padding: 30px;
-    border-radius: 16px;
-    transition: 0.3s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-8px);
-    background: rgba(255,255,255,0.15);
-}
-
-.tech-tags {
-    margin: 15px 0;
-}
-
-.tech-tags span {
-    background: rgba(255,255,255,0.2);
-    padding: 5px 12px;
-    border-radius: 6px;
-    font-size: 12px;
-    margin-right: 8px;
-}/*new*/
