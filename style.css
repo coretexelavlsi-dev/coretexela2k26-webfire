@@ -25,7 +25,7 @@ main {
 /* ================= HEADER ================= */
 
 .header {
-    /*position: fixed;   */     /* FIXED */
+    position: fixed;        /* FIXED */
     top: 0;
     left: 0;
     width: 100%;
@@ -35,8 +35,7 @@ main {
     justify-content: space-between;
     align-items: center;
 
-    padding: 18px 40px;
-     box-sizing: border-box;  /* IMPORTANT */
+    padding: 18px 60px;
     background: linear-gradient(90deg, #081c3a, #0b2347);
 }
 
@@ -58,15 +57,9 @@ main {
 }
 
 /* NAVIGATION */
-.header nav {
-    display: flex;
-    align-items: center;
-    gap: 25px;   /* instead of margin-left */
-}
-
 .header nav a {
     color: #ffffff;
-    /*margin-left: 35px;*/
+    margin-left: 35px;
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
@@ -76,7 +69,6 @@ main {
 .header nav a:hover {
     color: #3b82f6;
 }
-
 
 /* Hero Section */
 .hero {
