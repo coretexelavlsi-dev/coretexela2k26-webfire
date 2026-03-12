@@ -35,7 +35,8 @@ main {
     justify-content: space-between;
     align-items: center;
 
-    padding: 18px 60px;
+    padding: 18px 40px;
+     box-sizing: border-box; 
     background: linear-gradient(90deg, #081c3a, #0b2347);
 }
 
@@ -59,7 +60,7 @@ main {
 /* NAVIGATION */
 .header nav a {
     color: #ffffff;
-    margin-left: 35px;
+    /*margin-left: 35px;*/ gap: 25px;
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
